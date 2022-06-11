@@ -1,0 +1,52 @@
+
+.btn:hover{
+  background-color:rgb(161, 250, 161);
+  color:black;
+  width:6em;
+}
+
+.btn{
+  width: 6em;
+  background-color:rgb(62, 80, 68)
+}
+.formx {
+  background-image: conic-gradient( rgb(245, 250, 198),rgb(188, 255, 101), rgb(237, 239, 202) , #caffa4);
+  /* , url("https://www.pikpng.com/pngl/m/518-5186101_abstract-vector-transparent-background-png-darkness-clipart.png"); */
+  border-radius: 50px 50px 50px 50px;
+  /* background-repeat: no-repeat; */
+  /* width:100%; */
+  border: 1px solid green;
+  /* border: 1px 1px 0 1px; */
+}
+
+.formy{
+  
+  background-image: conic-gradient( rgb(245, 250, 198),rgb(188, 255, 101), rgb(237, 239, 202) , #caffa4);
+  /* border-radius: 0% 0% 40% 0; */
+ display: block;
+ top:0;
+ width: 80%;
+ border: 1px solid grey;
+ /* border-right: 1px solid grey; */
+ margin-left: 10%;
+ border-radius: 0 0 20px 20px;
+ border-top: 0;
+}
+.par {
+  /* margin-left: 40%; */
+  /* margin-top: 2%; */
+  margin-left: 10%;
+  padding-top: 5%;
+
+}
+.hf:hover{
+  color:rgb(9, 17, 134);
+  font-size:16px;
+  font-weight: bold;
+  word-break: break-all;
+}
+/* .xbot {
+  border-bottom: 1px solid grey;
+  margin-bottom: 10%;
+ 
+} */

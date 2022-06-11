@@ -1,0 +1,61 @@
+.container {
+    display: block;
+    align-items:center;
+    width: 50%;
+    height: 60%;
+    top: 100px;
+    margin-top: 40px;
+    background-image: conic-gradient( rgb(245, 250, 198),rgb(188, 255, 101), rgb(237, 239, 202) , #caffa4);
+    border-radius: 25% 0 40% 0;
+    border: 1px solid grey;
+}
+
+.form-row {
+    width: 60%;
+    display: inline-flex;
+    top:10;
+    position: relative;
+    margin-top: 10px;
+    justify-content: flex-start;
+    
+}
+.one {
+    width: 20rem;
+}
+/* .fh {
+    background-image: conic-gradient( rgb(244, 244, 166) 60%,rgb(200, 243, 200) 20%,rgb(230, 231, 217) 15%,gold);
+    display:block;
+    top: 0;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid grey;
+    /* motion-rotation: 40deg; */
+} */
+.test {
+    /* mask-position: 400px; */
+    /* justify */
+    display:block;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    transform: rotate(10deg);
+    margin-top: 10%;
+    
+    /* width: 105%; */
+}
+.h4 {
+    justify-self: center;
+    display: flex;
+    top: 0;
+    /* width: 5px; */
+    /* margin-left: 20%; */
+    margin: 4% 0 2% 20%;
+}
+
+.img {
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 20%
+}

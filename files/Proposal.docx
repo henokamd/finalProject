@@ -1,0 +1,37 @@
+Proposal:
+
+Step-1:
+
+Name of Application: 
+
+“FHA” Fashion.
+
+Overview
+
+Our Goal is to develop a website, where different sellers will be able to post a product and sell through our website. 
+It will give users an opportunity to look for desired items, choose the size, color. 
+After choosing that, they can add it to the cart, and keep looking for another item. 
+Once they are done with the search, they can go ahead to cart, and proceed with the purchase. 
+They can checkout for the purchase as a guest, and won’t be asked for registration. 
+They will only need to provide basic information about them (such as Full Name, Address, zip code, phone number). 
+Once they are done with the purchase, the product will be processed for delivery. After that the order will be processed to the delivery, and will be delivered to the customer. 
+
+Elevator Pitch 
+
+We decided to take online sales of clothing as a product. Our project is concentrated on clothes designed for Adults (Men and Women). 
+Different sellers will be able to post their product on the website, and sell them on the  platform. 
+Our goal is to provide a responsive website that will show the product types and variety, and at the same time will give customers easy access to the website, 
+to make purchases and order clothes online. 
+
+
+User Story
+
+Written in the format of:
+
+As a seller, I want the website to give users an opportunity to look for desired items, choose the size, color. 
+After choosing the product, I want the items to be viewed by the users, so that they can choose what they want and proceed with the payment. 
+I want the website to ask users Basic information, for the checkout. 
+
+As a user, I want to select and purchase items from the website. I want the website to show the products on sale.  
+I want the website to be easy to access. Give the option to choose the color, size, brand, price and other descriptions of the product. 
+In the website I want to see a big variety of the products, so that I can choose from different brands.

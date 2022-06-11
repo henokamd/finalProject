@@ -1,0 +1,194 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.one {
+       min-height: 100%;
+       height: 200%
+       position: relative;
+       top:100px;
+       /* margin-bottom: 50px; */
+
+   }
+
+
+
+   fieldset {
+       border: 1px dotted gray;
+       margin-top: 33px;
+       padding-left:10px;
+   }
+
+   .carousel-item, .conte {
+       /* height: 100%; */
+       position:sticky;
+       top: 30px;
+       /* background: gold; */
+       overflow:scroll;
+       
+       /* bottom: 2px; */
+   }
+   .imgx {
+       width: 100%;
+       height: 240px;
+   }
+
+   .last {
+       position:relative;
+       top:0;
+       height:10rem;
+       background-image: linear-gradient(to bottom, rgba(255, 252, 252, 0.6) 0%,rgba(249, 249, 249, 0.6) 100%), url('https://graphicdesignjunction.com/wp-content/uploads/2014/05/001+background+pattern+designs.jpg'); 
+      
+      
+   }
+.coly {
+   position: relative;
+   top:600;
+   max-height: 70%;
+   justify-items:center;
+   align-items: center;
+   overflow: scroll;
+}
+
+.crd-col1 {
+ position:flex;
+ height: 70%;
+ overflow: scroll;
+}
+/* .coly:hover {
+ overflow: scroll;
+} */
+#carouselExampleCaptions, .carousel {
+/* display: none; */
+position: relative;
+transition-delay: 10s;
+transition: width 2s linear 3s; 
+
+}
+.navbar {
+  background-color: rgb(239, 238, 238);
+  border: 1px solid rgb(129, 130, 129);
+  position: relative;
+  top:0;
+  border-bottom: 2em;
+  /* border-radius: 15px; */
+}
+
+.ftr {
+display:flex;
+justify-items:center;
+
+}
+
+.two {
+display: inline-block;
+margin-top: 150px;
+justify-content:center;
+}
+
+/* body {
+   background-size: auto 100%;
+} */
+/* body::after{
+ background: url('https://media.istockphoto.com/photos/modern-abstract-wavy-background-picture-id1356565274?b=1&k=20&m=1356565274&s=170667a&w=0&h=DmUGKAV8M2EAfZBIVZS90SChW_VYwf-JvJ9Nbr3YNyA=');
+ background-size: cover;
+ opacity: 0.1;
+ position: absolute;
+ z-index: -1;
+ top:0;
+ left:0;
+ bottom: 0;
+ right: 0;
+ content:"";
+} */
+body::after {
+    background-image: conic-gradient( rgb(245, 250, 198),rgb(188, 255, 101), rgb(237, 239, 202) , #caffa4);
+    /* , url("https://www.pikpng.com/pngl/m/518-5186101_abstract-vector-transparent-background-png-darkness-clipart.png"); */
+    /* border-radius: 50px 50px 50px 50px; */
+    /* background-repeat: no-repeat; */
+    /* width:100%; */
+    /* border: 1px solid green; */
+    /* border: 1px 1px 0 1px; */
+    background-size: cover;
+    opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    content:""
+  }
+footer div {
+  justify-content: center;
+}
+.card {
+ border-radius: 2em 2em 0 0;
+ display:inline-flex;
+ top:0;
+ justify-content: center;
+ /* background-color: rgb(244, 239, 239); */
+ border:0;
+ width:14rem;
+
+}
+.card > img {
+ border-radius: 2em 2em 0 0;
+}
+.card:hover{
+ /* background-color:; */
+ border: 1px solid gray;
+ width: 16rem;
+ background-color: rgb(248, 241, 231);
+}
+.card.one {
+ position: relative;
+ top: 0;
+ margin-top: 2rem;
+ /* min-width: 100%; */
+ /* max-height: 500px; */
+ /* col-span-4; */
+ 
+}
+.card.t {
+ background-color : rgb(202, 241, 207);
+}
+.cimg {
+ display:flex;
+ margin: 10px;
+ position: relative;
+ top: 0;
+ min-width: 1em;
+ /* align-items:stretch; */
+ /* max-width:40% ; */
+
+
+}
+.btn > img {
+border-radius: 60%;
+border: 2px solid grey;
+}
+.btn{
+border: 1px solid grey;
+background: rgb(221, 251, 168);
+color: black;
+}
+.btn:hover{
+color: rgb(102, 255, 0);
+background: radial-gradient( rgb(221, 251, 168); 40%, rgb(238, 245, 190) 60%);
+/* font-size:18px; */
+
+}
+
+
+/* .col {
+display:flex;
+top: 10px;
+overflow:scroll;
+} */
+.frm {
+    display: inline-end;
+    position:relative;
+    margin-left: 20%;
+    top:10px;
+    
+
+}
