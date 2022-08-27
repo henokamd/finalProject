@@ -139,29 +139,42 @@ function logSubmit(event) {
           
 
 
-function getInfo(user, pswd) {
+const getInfo = (user, pswd) => {
 
-    const objPeople = [
-        {
-        usr: "Henok@123.com",
-        pass: "123"
+    const objPeople =  {
+      
+     acct: [{
+        usr: 'Henok@123.com',
+        pass: 'abc'
     },
     {
-        usr: "Ted@abc.org",
-        pass: "1234"
+        usr: 'Ted@abc.org',
+        pass: 'abc'
     }
-    ];
+    ]
+  };
+  //console.log(typeof objPeople.acct.pass[0][1]);
+    //console.log(objPeople.acct[usr]);
 //    let userX =  frmLogin.email.value;
 //    let pswd =  document.getElementById("pwd").value;
 // let test = typeof objPeople.usr[0];
-
+let acnt = objPeople.acct[0].usr.toString();
+let psdd = objPeople.acct[0].pass.toString();
 //   console.log(test);
-   for (i= 0; i < objPeople.length; i++) {
-    if ( user == objPeople.usr[i].toString() && pswd == objPeople.pass[i].toString()  ) {
-        console.log(`${userX} logged in!!`);
-        return;
+   for (let i= 0; i < objPeople.length; i++)
+   
+    {
+    if ( acnt === user && psdd === pswd) {
+        console.log(`Welcome ${user} !`);
+        
     }
+
   }
-  console.log('Incorrect password');
+  console.log('Incorrect password ');
 }
 //getInfo();
+
+
+    document.getElementById("cancel").onclick = function () {
+        location.href = "./Home.html";
+    };

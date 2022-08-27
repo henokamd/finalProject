@@ -1,0 +1,28 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    // "devStart": "nodemon server.js"
+     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henokamd/finalProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henokamd/finalProject/issues"
+  },
+  "homepage": "https://github.com/henokamd/finalProject#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
