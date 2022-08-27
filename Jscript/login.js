@@ -177,4 +177,5 @@ let psdd = objPeople.acct[0].pass.toString();
 
     document.getElementById("cancel").onclick = function () {
         location.href = "./Home.html";
+        
     };
