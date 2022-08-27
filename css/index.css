@@ -172,7 +172,7 @@ background: rgb(221, 251, 168);
 color: black;
 }
 .btn:hover{
-color: rgb(102, 255, 0);
+color: rgb(94, 5, 5);
 background: radial-gradient( rgb(221, 251, 168); 40%, rgb(238, 245, 190) 60%);
 /* font-size:18px; */
 
